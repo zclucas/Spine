@@ -4,16 +4,6 @@
 	"description": "This plugin provides the spine-unity runtime core.",
 	"version": "1.0.0",
 	"unity": "2022.3",
-	"author": {
-		"name": "Esoteric Software",
-		"email": "contact@esotericsoftware.com",
-		"url": "http://esotericsoftware.com/"
-	},
 	"dependencies": {
-	},
-	"keywords": [
-		"spine",
-		"spine-unity",
-		"core"
-	]
+	}
 }
