@@ -150,10 +150,10 @@ namespace Spine.Unity.Editor {
 					break;
 				}
 
-			typeof(EditorGUIUtility).InvokeMember("SetIconForObject", BindingFlags.InvokeMethod | BindingFlags.Static | BindingFlags.NonPublic, null, null, new object[2] {
-				boneComponent.gameObject,
-				icon
-			});
+			// typeof(EditorGUIUtility).InvokeMember("SetIconForObject", BindingFlags.InvokeMethod | BindingFlags.Static | BindingFlags.NonPublic, null, null, new object[2] {
+			// 	boneComponent.gameObject,
+			// 	icon
+			// });
 		}
 
 		static void AttachIconsToChildren (Transform root) {
